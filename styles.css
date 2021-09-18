@@ -34,7 +34,7 @@ input{
     border: solid 1px #FFFFFF;
     border-radius: 5px;
     background-color: transparent;
-    height: 20px;
+    height: 35px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -48,20 +48,25 @@ button{
     border: solid 1px #FFFFFF;
     height: 35px;
     border-radius: 5px;
-    width: 260px;
+    width: 300px;
     font-family: cursive;
     font-size: 15px;
     color: #FFFFFF;
 }
 
 .data{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     margin-bottom: 10px;
-    width: 270px;
+    width: 260px;
+    gap: 10px;
 }
 
 .messageField{
     margin-bottom: 10px;
-    width: 260px;
+    width: 300px;
     color: #FFFFFF;
     font-family: cursive;
     height: 30px;
